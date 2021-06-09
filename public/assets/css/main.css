@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;0,800;1,300;1,600;1,800&display=swap");
+
+:root {
+  /* light theme */
+  --color: hsl(200, 15%, 8%);
+  --bg-color: hsl(0, 0%, 96%);
+  --bg-hover: hsl(0, 0%, 90%);
+  --bg-element: hsl(0, 0%, 100%);
+  --bg-input: hsl(0, 0%, 100%);
+  --color-input: hsl(0, 0%, 52%);
+  --box-shadow: 2px -2px 5px hsl(0, 0%, 95%), -2px 2px 5px hsl(0, 0%, 80%);
+
+  --fsize-home: 1.4rem;
+  --fsize-detail: 1.6rem;
+}
+
+.dark {
+  /* dark theme */
+  --color: hsl(0, 0%, 100%);
+  --bg-color: hsl(207, 26%, 17%);
+  --bg-hover: hsl(207, 21%, 25%);
+  --bg-element: hsl(209, 23%, 22%);
+  --bg-input: hsl(207, 28%, 23%);
+  --color-input: hsl(0, 0%, 90%);
+  --box-shadow: 2px -2px 5px hsl(209, 36%, 18%), -2px 2px 5px hsl(209, 26%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
